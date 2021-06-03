@@ -32,7 +32,7 @@ public class ArrayListActivity extends AppCompatActivity {
             tv.setText(tv.getText()+fruits.get(i)+"\n");
         }
 
-        fruits.set(fruits.size(),"Dragon fruit");
+        fruits.set((fruits.size()-1),"Dragon fruit");
 
     }
 }
